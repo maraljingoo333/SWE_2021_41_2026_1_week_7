@@ -10,3 +10,4 @@ def twoSum(nums: List[int], target: int) -> List[int]:
             return [num_dict[complement], i]
 
         num_dict[nums[i]] = i
+    return []
